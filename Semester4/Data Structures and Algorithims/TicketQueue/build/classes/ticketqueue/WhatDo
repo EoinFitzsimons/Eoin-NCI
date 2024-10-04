@@ -1,0 +1,15 @@
+Queue Problem: Ticket Booking System using queue. 
+1. Design a simple ticket booking system for a venue using a queue. Each 
+ticket has a name which is added to the queue when booked. 
+2. This must use a queue interface. 
+3. Create a class diagram for it.
+4. Application should be able to enqueue, dequeue, show isEmpty result and 
+size. 
+5. Allow the system to show a list of all tickets. 
+6. Allow tickets to be searched by name.
+7. Save the class diagram into the NetBeans folder and commit this to github 
+in a repo called DSA-wk2-queue and paste the link to the form on moodle.
+Change your application to process an object that includes ticket holder 
+name, mobile and a ticket number. 
+Save the class diagram into the NetBeans folder and commit this to github in
+a repo called DSA-wk2-queue2 and paste the link to the form on moodle

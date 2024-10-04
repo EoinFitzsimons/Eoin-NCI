@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+	<order = "In Progess">
+		<customer>a</customer>
+		<orderdetalis>b</orderdetalis>
+		<billto>c</billto>
+		<shipto>d</shipto>	
+	</order>
+</orders>

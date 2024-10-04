@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes>
+	<class>
+		<address Mayor Square />
+		<course Computing />
+		<year 2 />
+		<module Web Application Development />
+		<starttime 1500 />
+		<finishtime 1600 />
+		<classtype Lab />
+		<boolean id="Lab" value="True" />
+		<floor 3 />
+		<room 1 />
+	</class>
+	<class>
+		<address Mayor Square />
+		<course Computing />
+		<year 2 />
+		<module Advanced Databases />
+		<starttime 1200 />
+		<finishtime 1400 />
+		<classtype Lecture />
+		<boolean id="Lab" value="False" />
+		<floor 3 />
+		<room 3 />
+	</class>
+</classes>

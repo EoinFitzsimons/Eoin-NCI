@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<title>SVG Simple</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #241a56 } 
+		.t1 { font-size: 24px;fill: #241a56;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<path id="Shape 1" class="s0" d="m128 188c-33.2 0-60-26.8-60-60 0-33.2 26.8-60 60-60 33.2 0 60 26.8 60 60 0 33.2-26.8 60-60 60z"/>
+	<text id="Black Circle" style="transform: matrix(1,0,0,1,127,61)" >
+		<tspan x="-70" y="0" class="t1">B</tspan><tspan  y="0" class="t1">l</tspan><tspan  y="0" class="t1">a</tspan><tspan  y="0" class="t1">c</tspan><tspan  y="0" class="t1">k</tspan><tspan  y="0" class="t1"> </tspan><tspan  y="0" class="t1">C</tspan><tspan  y="0" class="t1">i</tspan><tspan  y="0" class="t1">r</tspan><tspan  y="0" class="t1">c</tspan><tspan  y="0" class="t1">l</tspan><tspan  y="0" class="t1">e
+</tspan>
+	</text>
+</svg>

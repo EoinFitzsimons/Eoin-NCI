@@ -1,0 +1,26 @@
+<concert>
+	<user>
+		<customer_id 1 />
+		<year 2023 />
+		<month September />
+		<day 27 />
+		<starttime 
+		<band Muse />
+		<arena The Song Place />
+		<stage 3 />
+		<row 7 />
+		<seat b />
+	</user>
+	
+	<user>
+		<customer_id 2 />
+		<year 2023 />
+		<month September />
+		<day 27 />
+		<band Muse />
+		<arena The Song Place />
+		<stage 3 />
+		<row 7 />
+		<seat a />
+	</user>
+</concert>

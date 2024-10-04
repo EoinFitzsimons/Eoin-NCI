@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\eoin0\OneDrive\NCI\WEBAPP\WEBAPP Assignment 1\Fancy Schema.xsd">
+	<product code="000-01">
+		<category>Ship</category>
+		<name>Man O' War</name>
+		<description>Water damage.</description>
+		<quantity>1</quantity>
+		<unit_price>100000.00</unit_price>
+	</product>
+	<product code="000-02">
+		<category>Fish</category>
+		<name>Clownfish</name>
+		<description>Orange and white stripes.</description>
+		<quantity>10</quantity>
+		<unit_price>20.00</unit_price>
+	</product>
+	<product code="000-03">
+		<category>Fish</category>
+		<name>Goldfish</name>
+		<description>Orange only.</description>
+		<quantity>10</quantity>
+		<unit_price>25.00</unit_price>
+	</product>
+	<product code="000-04">
+		<category>Ship</category>
+		<name>Galley</name>
+		<description>Small sailing ship.</description>
+		<quantity>25</quantity>
+		<unit_price>2000.00</unit_price>
+	</product>
+	<product code="000-05">
+		<category>Fish</category>
+		<name>Angler</name>
+		<description>Sharp teeth with bioluminescant tentril off the top of the face.</description>
+		<quantity>31</quantity>
+		<unit_price>23.00</unit_price>
+	</product>
+	<product code="000-06">
+		<category>Fish</category>
+		<name>Starfish</name>
+		<description>Five legs and multicoloured body.</description>
+		<quantity>63</quantity>
+		<unit_price>2.00</unit_price>
+	</product>
+	<product code="000-07">
+		<category>Ship</category>
+		<name>Nuclear Submarine</name>
+		<description>Features six nuclear missiles.</description>
+		<quantity>1</quantity>
+		<unit_price>207000500.00</unit_price>
+	</product>
+	<product code="000-08">
+		<category>Fish</category>
+		<name>Megladon</name>
+		<description>Once thought to be extinct, now the largest ocean predator.</description>
+		<quantity>126043</quantity>
+		<unit_price>2.00</unit_price>
+	</product>
+	<product code="000-09">
+		<category>Ship</category>
+		<name>Ghost Ship</name>
+		<description>Glows green and is mildly ethereal.</description>
+		<quantity>12</quantity>
+		<unit_price>2.00</unit_price>
+	</product>
+	<product code="000-10">
+		<category>Fish</category>
+		<name>Unknown Fish</name>
+		<description>Dead.</description>
+		<quantity>999999</quantity>
+		<unit_price>1.00</unit_price>
+	</product>
+</products>

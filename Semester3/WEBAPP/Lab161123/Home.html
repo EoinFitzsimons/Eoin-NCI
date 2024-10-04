@@ -1,0 +1,83 @@
+
+<html>
+  <head><title>JSON</title></head>
+  <body>
+
+    <h1>Lets JSON!</h1>
+
+    <script>
+      var employees = {
+        // "accounting" is an array in employees
+        "accounting": [
+          // First element
+          {"firstName": "John",
+            "lastName": "Doe",
+            "age": 23,
+            "staff": ["HR", "Computing", "Technical"]
+          },
+          // Second Element
+          {"firstName": "Mary",
+            "lastName": "Smith",
+            "age": 32,
+            "staff": ["Manager", "Employee", "Employers"]
+          }
+        ],
+        // end of the "accounting" array
+
+        // "sales" is another array in employees
+        "sales": [
+          // First Element
+          {"firstName": "Sally",
+            "lastName": "Green",
+            "age": 27
+          },
+           // Second Element
+          {"firstName": "Jim",
+            "lastName": "Galley",
+            "age": 41
+          }
+        ]
+        // end of "sales" array
+      }
+      // end of "employees"
+
+      //use document.writeln() to print
+      //1. PRINT DETAILS OF SALLY GREEN
+	document.writeln("1<br>");
+	document.writeln(employees.sales[0].firstName + ' ' + employees.sales[0].lastName + ' ' + employees.sales[0].age + "<br>");
+	document.writeln("<br>");
+
+      //2. PRINT AGE OF MARY SMITH
+	document.writeln("2<br>");
+    document.writeln(employees.accounting[1].firstName + ' ' + employees.accounting[1].lastName + ' ' + employees.accounting[1].age + "<br>");
+    document.writeln("<br>");
+
+      //3. USE A FOR LOOP TO PRINT ALL THE INFORMATION ABOUT THE STAFF IN THE ACCOUNTING SECTION
+	document.writeln("3<br>");
+	for (i in employees.accounting){
+		document.writeln(employees.accounting[i].staff + "<br>");
+	}
+	document.writeln("<br>");
+      //4. USE A FOR LOOP TO PRINT ALL THE DETAILS FROM SALES
+		document.writeln("4<br>");
+		for (i in employees.sales){
+			document.writeln(employees.sales[i].firstName + ' ' + employees.sales[i].lastName + ' ' + employees.sales[i].age);
+			document.writeln("<br>");
+		}
+		document.writeln("<br>");
+      //5. PRINT THE DETAILS OF STAFF ONLY FROM THE SECOND ELEMENT
+	document.writeln("5<br>");
+		document.writeln(employees.accounting[1].staff + "<br>");
+	document.writeln("<br>");
+
+      //6. PRINT THE FIRST NAME, LAST NAME AND AGE OF EVERBODY FROM ACCOUNTING
+	document.writeln("6<br>");
+		for (i in employees.accounting){
+			document.writeln(employees.accounting[i].firstName + ' ' + employees.accounting[i].lastName + ' ' + employees.accounting[i].age);
+			document.writeln("<br>");
+		}
+		document.writeln("<br>");
+
+    </script>
+  </body>
+</html>

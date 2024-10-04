@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JSON</title>
+	</head>
+	<body>
+		<p id="demo">
+	
+	</p>
+		<script>
+	var myJ = '{\"color\" : \"blue\", \"animal\" : {\"dog\" : \"friendly\"}}'
+	var myO = JSON.parse(myJ);
+	console.log(myO);
+	
+	var myJSON = "{\"name\":\"John\", \"age\":31,\"city\":\"New York\"}";
+	var myObj = JSON.parse(myJSON);
+	document.getElementById("demo").innerHTML = myObj.name;
+	
+	var myObject = {"color" : "blue", "animal" : {"dog" : "friendly"}}
+	var jsonData = JSON.stringify(myObject);
+	console.log(jsonData);
+	
+	var myObj = { name: "John",
+	age: 31,
+	city: "New York" };
+	var myJSON = JSON.stringify(myObj);
+	document.getElementById("demo").innerHTML = myJSON;
+	
+	var myObject = JSON.parse('{"color" : "blue", "animal" : {"dog" : "friendly"}}')
+	var color = myObject.color;
+	var dog = myObject.animal.dog;
+	console.log(color);
+	console.log(dog);
+	var color = myObject["color"];
+	var dog = myObject["animal"].dog;
+	console.log(color);
+	console.log(dog);
+
+	var myObject = JSON.parse('{"people": [ { "name": "harry", "age": "30"},{ "name": "john", "age": "31"}, { "name": "luke", "age": "32"}]}');
+	var name = myObject.people[0].name;
+	var age = myObject["people"][0].age;
+	console.log(name);
+	console.log(age);
+	
+	var myObj = JSON.parse('{"name":"John","age":30, "car":null}');
+	for (x in myObj) {
+	console.log( x + " : " + myObj[x] );
+	}
+	
+	var myObj, myJSON, text, obj;
+	//Storing data:
+	myObj = { name: "John", age: 31, city: "New York" };
+	myJSON = JSON.stringify(myObj);
+	localStorage.setItem("testJSON", myJSON);
+	//Retrieving data:
+	text = localStorage.getItem("testJSON");
+	obj = JSON.parse(text);
+	document.getElementById("demo").innerHTML = obj.name;
+	</script>
+	</body>
+</html>
+
+
+

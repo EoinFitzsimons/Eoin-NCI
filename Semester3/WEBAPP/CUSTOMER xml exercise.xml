@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customer>
+	<firstname>Josef</firstname>
+	<lastname>Trotsky</lastname>
+	<address>
+		<office>123 MadeUp Lane</office>
+	</address>
+</Customer>

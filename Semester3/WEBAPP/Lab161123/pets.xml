@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Pets>
+  <Pet PetID="7" >
+    <Name>Eugene</Name>
+    <Category>Cat</Category>
+    <Breed>Siamese</Breed>
+    <DateAdopted>01/25/2011</DateAdopted>
+    <Gender>Male</Gender>
+    <Registered>CFA</Registered>
+    <Color>Black</Color>
+    <ListPrice>$279.54</ListPrice>
+  </Pet>
+  <Pet PetID="8" >
+    <Name>Miranda</Name>
+    <Category>Dog</Category>
+    <Breed>Norfolk Terrier</Breed>
+    <DateAdopted>05/04/2011</DateAdopted>
+    <Gender>Female</Gender>
+    <Registered>AKC</Registered>
+    <Color>Red</Color>
+    <ListPrice>$203.75</ListPrice>
+  </Pet>
+  <Pet PetID="10" >
+    <Name>Sherri</Name>
+    <Category>Dog</Category>
+    <Breed>Siberian Huskie</Breed>
+    <DateAdopted>09/13/2011</DateAdopted>
+    <Gender>Female</Gender>
+    <Registered>AKC</Registered>
+    <Color>Black/White</Color>
+    <ListPrice>$166.79</ListPrice>
+  </Pet>
+</Pets>

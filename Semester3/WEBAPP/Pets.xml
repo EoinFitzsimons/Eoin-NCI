@@ -1,0 +1,13 @@
+<pets>
+	<pet>
+		<petid id="1"/>
+		<name Anna />
+		<Category Feline />
+		<Breed Domestic />
+		<DateAdopted 2023-12-03 />
+		<Gender Female />
+		<Boolean id="Registered" value = "False" />
+		<Colour Black />
+		<ListPrice €1000.00 />
+	</pet>
+</pets>

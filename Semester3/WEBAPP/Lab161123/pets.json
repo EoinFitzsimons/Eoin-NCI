@@ -1,0 +1,41 @@
+      var Pets = {
+        // "Pet" is an array in Pets
+        "Pet": [
+          // First element
+          {"Name": "Eugene",
+            "ID": "7",
+            "Category": "Cat",
+            "Breed": "Siamese",
+			"DateAdopted": "01/25/2011",
+            "Gender": "Male",
+            "Registered": "CFA",
+            "Color": "Black",
+			"ListPrice": "$279.54"
+          },
+		   // Second element
+		  {"Name": "Miranda",
+            "ID": "8",
+            "Category": "Dog",
+            "Breed": "Norfolk Terrier",
+			"DateAdopted": "05/04/2011",
+            "Gender": "Female",
+            "Registered": "AKC",
+            "Color": "Red",
+			"ListPrice": "$203.75"
+          },
+		   // Third element
+		  {"Name": "Sherri",
+            "ID": "10",
+            "Category": "Dog",
+            "Breed": "Siberian Huskie",
+			"DateAdopted": "09/13/2011",
+            "Gender": "Female",
+            "Registered": "AKC",
+            "Color": "Black/White",
+			"ListPrice": "$166.79"
+          }
+          
+        ]
+        // end of the "Pet" array
+      }
+      // end of "Pets"

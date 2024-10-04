@@ -1,0 +1,123 @@
+body {
+  /* NCI Colour */
+	background-color: #241a56;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#myInput {
+	text-align: center;
+	margin: 0 40%;
+	width: 20%;
+	font-size: 16px;
+	padding: 12px 20px 12px 20px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+}
+
+#fsTable {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	border: 1px solid #ddd;
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 18px;
+
+}
+
+#fsTable th,
+#fsTable td {
+	text-align: left;
+	padding: 12px;
+}
+
+#fsTable th {
+	background-color: white;
+	color: #241a56;
+}
+
+#fsTable tr {
+	background-color: #241a56;
+	color: white;
+}
+
+#fsTable tr.header,
+#fsTable tr:hover {
+	background-color: #a89de2;
+}
+
+p, ol, ul {
+	color: white;
+}
+
+.Title h1 {
+	text-align: center;
+	font-size: 64px;
+	color: white;
+	border-radius: 60px;
+	margin: 0 25%;
+	font-family: "Lobster",sans-serif;
+}
+
+.Headings h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 0 25%;
+	font-family: "Red Hat Display", sans-serif;
+}
+
+.Paragraph h1{
+	text-align: center;
+	font-size: 20px;
+	padding: 1%;
+	color: white;
+	margin: 0 25%;
+	font-family: "Red Hat Display", sans-serif;
+}
+
+/* Navigation bar */
+.Nav {
+	background-color: #342b6e; /* Slightly lighter shade */
+	overflow: hidden;
+}
+
+.Nav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: "Red Hat Display", sans-serif;
+	transition: background-color 0.2s, color 0.2s; /* Add smooth transition */
+}
+
+.Nav a:hover {
+	background-color: #241a56; /* Darker shade on hover */
+	color: #fff9e0;
+}
+
+.Nav a.active {
+	background-color: #CAAB39;
+	color: black;
+}
+
+/* .NoMatches { Javascript alters style in html. Not going to try alter stylesheet
+	display: none;
+	color: red;
+	font-size: 30px;
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+}
+ */
+ 
+ .Image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+ }

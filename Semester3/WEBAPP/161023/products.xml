@@ -1,0 +1,15 @@
+<products>
+  <vendor webvendor="full" id="conners">
+    <vendor_name>Conners Chair Company</vendor_name>
+    <product>
+		<product_id>QA3452</product_id>
+		<short_desc>Queen Anne Chair</short_desc>
+		<price pricetype="cost">$85</price>
+    </product>
+    <product>
+		<product_id>BR3452</product_id>
+		<short_desc>Bentwood Rocker</short_desc>
+		<price pricetype="sale">$160</price>
+    </product>
+  </vendor>
+</products>

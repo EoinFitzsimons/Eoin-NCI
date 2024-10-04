@@ -1,0 +1,15 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="persons">
+		<xs:complexType>
+			<xs:element name="person">
+				<xs:complexType>
+					<xs:all>
+						<xs:element name="firstname" type="xs:string" />
+						<xs:element name="age" type="xs:integer" />
+						<xs:element name="lastname" type="xs:string" />
+					</xs:all>
+				</xs:complexType>
+			</xs:element name="person">
+		</xs:complexType>
+	</xs:element name="persons">
+</xs:schema>

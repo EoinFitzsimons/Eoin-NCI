@@ -1,0 +1,147 @@
+<mxfile host="Electron" modified="2024-03-15T17:01:14.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Pb03hKjObsA8Fv3r1_XK" version="24.0.4" type="device">
+  <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+    <mxGraphModel dx="1581" dy="783" grid="1" gridSize="11.811" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="17acba5748e5396b-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="11" y="11" width="850.39" height="1216.53" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="730" y="814" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="948" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="730" y="603" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="970" />
+              <mxPoint x="545" y="970" />
+            </Array>
+            <mxPoint x="545" y="1004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;fontColor=default;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="1029" />
+              <mxPoint x="410" y="1029" />
+            </Array>
+            <mxPoint x="490" y="1029" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;StackInterface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ void push(Object newItem);&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Object pop();&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Object peek();&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+boolean isEmpty();&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+int size();&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+String display();&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="48" y="47" width="200" height="130.17" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LinkedListInterface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ boolean isEmpty();&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;+int size();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;+Object get(int index);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;+void remove(int index);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;+void add(Object theElement, int index);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;+void add(Object theElement);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;+void printList();&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="46" y="408.06" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff6i5Kfp2_a6Xalrlchu-1" value="MusicManagerApp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="671.1" y="46.99999999999999" width="160" height="59.06" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff6i5Kfp2_a6Xalrlchu-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="Ff6i5Kfp2_a6Xalrlchu-1" vertex="1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff6i5Kfp2_a6Xalrlchu-4" value="+ MusicManagerGUI()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Ff6i5Kfp2_a6Xalrlchu-1" vertex="1">
+          <mxGeometry y="34" width="160" height="25.06" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff6i5Kfp2_a6Xalrlchu-6" value="MusicManagerGUI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="471.1" y="46.99999999999999" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff6i5Kfp2_a6Xalrlchu-7" value="&lt;p style=&quot;text-wrap: wrap; margin-top: 0px; margin-bottom: 4px; padding: 10px; box-sizing: border-box; border: 1px solid var(--cib-color-stroke-neutral-primary); background: var(--cib-color-syntax-background-surface); border-radius: var(--cib-border-radius-large); color: rgb(17, 17, 17);&quot;&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;+likedSongs: MyStack&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;+goodPlaylist: DLList&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;+badPlaylist: DLList&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Ff6i5Kfp2_a6Xalrlchu-6" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff6i5Kfp2_a6Xalrlchu-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="Ff6i5Kfp2_a6Xalrlchu-6" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff6i5Kfp2_a6Xalrlchu-9" value="initComponents();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Ff6i5Kfp2_a6Xalrlchu-6" vertex="1">
+          <mxGeometry y="98" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-1" value="Node" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="391.1" y="720.47" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-GB&quot;&gt;-element: Object&lt;br&gt;-next: Node&lt;br&gt;-prev: Node&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-1" vertex="1">
+          <mxGeometry y="26" width="320" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-1" vertex="1">
+          <mxGeometry y="90" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-4" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-GB&quot;&gt;+Node(element:Object, next: Node, prev: Node): void&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getNext(): Node&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+setNext(next: Node): void&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getPrev(): Node&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+setPrev(prev: Node): void&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getElement(): Object&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+setElement(element: Object): void&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+toString(): String&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-1" vertex="1">
+          <mxGeometry y="98" width="320" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-5" value="MyStack" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="271.1" y="46.99999999999999" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-6" value="&lt;p style=&quot;text-wrap: wrap; margin-top: 0px; margin-bottom: 4px; padding: 10px; box-sizing: border-box; border: 1px solid var(--cib-color-stroke-neutral-primary); background: var(--cib-color-syntax-background-surface); border-radius: var(--cib-border-radius-large); color: rgb(17, 17, 17);&quot;&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Helvetica&quot;&gt;-aStack:ArrayList&amp;lt;String&amp;gt;&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-5" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-5" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-8" value="&lt;p style=&quot;text-wrap: wrap; margin-top: 0px; margin-bottom: 4px; padding: 10px; box-sizing: border-box; border: 1px solid var(--cib-color-stroke-neutral-primary); background: var(--cib-color-syntax-background-surface); border-radius: var(--cib-border-radius-large); color: rgb(17, 17, 17);&quot;&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;+MyStack(): void&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  +push(newItem: Object): void&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  +isEmpty(): boolean&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  +pop(): Object&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  +peek(): Object&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  +size(): int&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  +display(): String&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-5" vertex="1">
+          <mxGeometry y="60" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-13" value="DLList" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="471.1" y="299.06" width="160" height="368" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-14" value="&lt;p style=&quot;text-wrap: wrap; margin-top: 0px; margin-bottom: 4px; padding: 10px; box-sizing: border-box; border: 1px solid var(--cib-color-stroke-neutral-primary); background: var(--cib-color-syntax-background-surface); border-radius: var(--cib-border-radius-large); color: rgb(17, 17, 17);&quot;&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;-head: Node&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  -curr: Node&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  -prev: Node&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;  -size: int&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-13" vertex="1">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-13" vertex="1">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0FU8xNTo69gMSfbFTO-16" value="&lt;p style=&quot;text-wrap: wrap; margin-top: 0px; margin-bottom: 4px; padding: 10px; box-sizing: border-box; border: 1px solid var(--cib-color-stroke-neutral-primary); background: var(--cib-color-syntax-background-surface); border-radius: var(--cib-border-radius-large); color: rgb(17, 17, 17);&quot;&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +DLList(): void&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +isEmpty(): boolean&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +size(): int&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +setCurrent(index: int): void&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +add(element: Object): void&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +add(element: Object, index: int): void&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +get(index: int): Object&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +printList(): String&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +remove(song: String): void&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +contains(element: Object): boolean&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;line-height: var(--cib-type-body1-line-height); font-weight: var(--cib-type-body1-font-weight); font-variation-settings: var(--cib-type-body1-font-variation-settings);&quot; class=&quot;language-plaintext&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;  +loopList(): void&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="sm0FU8xNTo69gMSfbFTO-13" vertex="1">
+          <mxGeometry y="108" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5cogDLXhPxK9kzf1FcS-1" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="5d2195bd80daf111-20" target="sm0FU8xNTo69gMSfbFTO-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="521.1" y="399.06" as="sourcePoint" />
+            <mxPoint x="571.1" y="349.06" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5cogDLXhPxK9kzf1FcS-2" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="5d2195bd80daf111-18" target="sm0FU8xNTo69gMSfbFTO-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="101.1" y="289.06" as="sourcePoint" />
+            <mxPoint x="151.1" y="239.06" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5cogDLXhPxK9kzf1FcS-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Ff6i5Kfp2_a6Xalrlchu-1" target="Ff6i5Kfp2_a6Xalrlchu-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571.1" y="309.06" as="sourcePoint" />
+            <mxPoint x="621.1" y="259.06" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5cogDLXhPxK9kzf1FcS-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="sm0FU8xNTo69gMSfbFTO-13" target="Ff6i5Kfp2_a6Xalrlchu-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="641.1" y="399.06" as="sourcePoint" />
+            <mxPoint x="691.1" y="349.06" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5cogDLXhPxK9kzf1FcS-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="sm0FU8xNTo69gMSfbFTO-1" target="sm0FU8xNTo69gMSfbFTO-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="681.1" y="649.0600000000001" as="sourcePoint" />
+            <mxPoint x="731.1" y="599.0600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5cogDLXhPxK9kzf1FcS-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="sm0FU8xNTo69gMSfbFTO-5" target="Ff6i5Kfp2_a6Xalrlchu-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="661.1" y="389.06" as="sourcePoint" />
+            <mxPoint x="711.1" y="339.06" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
