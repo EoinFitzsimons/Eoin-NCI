@@ -1,0 +1,9 @@
+com\mycompany\threadsexamples\ThreadPriority.class
+com\mycompany\threadsexamples\SleepThreadTest.class
+com\mycompany\threadsexamples\JoinThreadRun.class
+com\mycompany\threadsexamples\SleepThreadRun.class
+com\mycompany\threadsexamples\PingPongRun.class
+com\mycompany\threadsexamples\PingPongTest.class
+com\mycompany\threadsexamples\JoinThreadTest.class
+com\mycompany\threadsexamples\PingPongThread.class
+com\mycompany\threadsexamples\ThreadPriorityTest.class
