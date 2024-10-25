@@ -18,7 +18,7 @@ class NonSynchronizedProducerConsumer {
     // Producer class
     class Producer implements Runnable {
         @Override
-        public void run() {synchronized (this) {
+        public void run() {
             int value = 0;
             while (true) {
                 // No synchronization, producer will produce without waiting for the consumer
@@ -37,7 +37,7 @@ class NonSynchronizedProducerConsumer {
             }
         }
     }
-    }
+
     // Consumer class
     class Consumer implements Runnable {
         @Override
