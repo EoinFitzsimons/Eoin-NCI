@@ -3,8 +3,12 @@ package com.mycompany.eventdescriptionserver;
 import java.io.IOException;
 import java.net.*;
 import java.util.ArrayList;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 
 public class EventDescriptionServer {
+
     private static final int PORT = 1234;
     private static DatagramSocket dgramSocket;
     private static DatagramPacket inPacket, outPacket;
@@ -34,7 +38,12 @@ public class EventDescriptionServer {
                 String messageIn = new String(inPacket.getData(), 0, inPacket.getLength());
 
                 // Handle the message
-                String response = handleClientMessage(messageIn);
+                String response;
+                try {
+                    response = handleClientMessage(messageIn);
+                } catch (IncorrectActionException e) {
+                    response = e.getMessage();
+                }
 
                 // Send the response back to the client
                 outPacket = new DatagramPacket(response.getBytes(), response.length(), clientAddress, clientPort);
@@ -52,32 +61,48 @@ public class EventDescriptionServer {
         }
     }
 
-    private static String handleClientMessage(String message) {
-    String[] parts = message.split(";");
-    if (parts.length < 4) {
-        return "Error: Invalid message format. Use 'add; DATE; TIME; Description' or 'remove; DATE; TIME; Description'.";
+    private static String handleClientMessage(String message) throws IncorrectActionException {
+        String[] parts = message.split(" - ");
+        if (parts.length < 4) {
+            throw new IncorrectActionException("Invalid message format. Use 'add - YYYYMMDD - HHMM - Description' or 'remove - YYYYMMDD - HHMM - Description'.");
+        }
+
+        String action = parts[0].trim();
+        String date = parts[1].trim();
+        String time = parts[2].trim();
+        String description = parts[3].trim();
+
+        // Regular expressions to validate time
+        String timePattern = "([01][0-9]|2[0-3])[0-5][0-9]"; // Matches HHMM
+
+        // Validate date
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyyMMdd");
+        try {
+            LocalDate.parse(date, dateFormatter);
+        } catch (DateTimeParseException e) {
+            throw new IncorrectActionException("Invalid date format. Ensure the date is valid and use 'YYYYMMDD'.");
+        }
+
+        // Validate time
+        if (!time.matches(timePattern)) {
+            throw new IncorrectActionException("Invalid time format. Use 'HHMM' within the 0000-2359 range.");
+        }
+
+        String event = date + " - " + time + " - " + description;
+
+        switch (action) {
+            case "add":
+                events.add(event);
+                return "Events on " + date + ": " + getEventsOnDate(date);
+            case "remove":
+                events.remove(event);
+                return "Events on " + date + ": " + getEventsOnDate(date);
+            case "STOP":
+                return "TERMINATE";
+            default:
+                throw new IncorrectActionException("Unknown action. Use 'add' or 'remove'.");
+        }
     }
-
-    String action = parts[0].trim();
-    String date = parts[1].trim();
-    String time = parts[2].trim();
-    String description = parts[3].trim();
-    String event = date + "; " + time + "; " + description;
-
-    switch (action) {
-        case "add":
-            events.add(event);
-            return "Events on " + date + ": " + getEventsOnDate(date);
-        case "remove":
-            events.remove(event);
-            return "Events on " + date + ": " + getEventsOnDate(date);
-        case "STOP":
-            return "TERMINATE";
-        default:
-            return "Error: Unknown action. Use 'add' or 'remove'.";
-    }
-}
-
 
     private static String getEventsOnDate(String date) {
         StringBuilder sb = new StringBuilder();
@@ -86,6 +111,6 @@ public class EventDescriptionServer {
                 sb.append(event).append("; ");
             }
         }
-        return sb.toString();
+        return sb.length() > 0 ? sb.toString() : "No events found on this date.";
     }
 }

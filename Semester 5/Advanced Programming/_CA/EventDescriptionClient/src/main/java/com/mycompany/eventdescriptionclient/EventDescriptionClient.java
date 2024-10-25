@@ -15,7 +15,7 @@ public class EventDescriptionClient {
 
     public static void main(String[] args) {
         try {
-            host = InetAddress.getLocalHost();
+            host = InetAddress.getLocalHost(); // Initialize host here
         } catch (UnknownHostException e) {
             System.out.println("Host ID not found!");
             System.exit(1);
@@ -53,5 +53,4 @@ public class EventDescriptionClient {
             dgramSocket.close(); // Step 8.
         }
     }
-
 }
