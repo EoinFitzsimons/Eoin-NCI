@@ -43,7 +43,7 @@ public class EventDescriptionClient {
             // Do-while loop to send and receive messages
             do {
                 System.out.println(
-                        "Enter a detailed message in the format 'add - YYYYMMDD - HHMM - Description' or 'remove - YYYYMMDD - HHMM - Description'. Use 'STOP' to close the connection: ");
+                        "Enter a detailed message in the format 'add - YYYYMMDD - HH:MM - Description' or 'remove - YYYYMMDD - HH:MM - Description'. Use 'STOP' to close the connection: ");
                 message = userEntry.readLine();
                 outPacket = new DatagramPacket(message.getBytes(), message.length(), host, PORT);
                 dgramSocket.send(outPacket);

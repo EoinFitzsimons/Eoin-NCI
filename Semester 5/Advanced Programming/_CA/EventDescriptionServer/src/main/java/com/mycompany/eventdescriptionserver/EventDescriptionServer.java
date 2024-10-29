@@ -94,7 +94,7 @@ public class EventDescriptionServer {
             String description = parts[3].trim();// Get the description part of the message and remove leading/trailing
                                                  // spaces
 
-            String timePattern = "([01][0-2]|2[0-3])[0-5][0-9]";// Regular expression to validate the time format
+            String timePattern = "^([0-2][0-3]|[0-1][0-9]):[0-5][0-9]+$";// Regular expression to validate the time format
 
             DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyyMMdd");// Date formatter for 'YYYYMMDD'
             try {
@@ -105,7 +105,7 @@ public class EventDescriptionServer {
             }
 
             if (!time.matches(timePattern)) {
-                throw new IncorrectActionException("Invalid time format. Use 'HHMM' within the 0000-2359 range.");
+                throw new IncorrectActionException("Invalid time format. Use 'HH:MM' within the 0000-2359 range.");
             }
             // Create the event string using the date, time, and description
             String event = date + " - " + time + " - " + description;
