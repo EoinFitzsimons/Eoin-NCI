@@ -1,0 +1,4 @@
+com\mycompany\helloworldwebservice\ApplicationConfig.class
+com\mycompany\helloworldwebservice\HelloWorldResource.class
+com\mycompany\helloworldwebservice\JakartaRestConfiguration.class
+com\mycompany\helloworldwebservice\resources\JakartaEE10Resource.class
