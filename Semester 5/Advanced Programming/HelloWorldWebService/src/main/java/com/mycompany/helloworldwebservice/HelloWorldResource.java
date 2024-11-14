@@ -19,32 +19,29 @@ public class HelloWorldResource {
     public String hello() {
         return "Hello, World from Web Service!";
     }
-    
+
     // This method is called if XML is request
-   @GET
-   @Path("/xml")
-   @Produces(MediaType.TEXT_XML)
-   public String sayXMLHello() {
-	return "<?xml version=\"1.0\"?>" + "<hello> Hello Jersey" + 		        "</hello>";
-   }
-   
-      // This method is called if HTML is request
-   @GET
-   @Path("/html")
-   @Produces(MediaType.TEXT_HTML)
-   public String sayHtmlHello() {
-	return "<html> " + "<title>" + "Hello Jersey" + "</title>"
-	+ "<body><h1>" + "Hello Jersey" + "</body></h1>" + "</html> ";
-   }
-   
-   @Path("/{name}")
-   @GET
-   @Produces(MediaType.TEXT_PLAIN)
-   public String sayPlainTextHello (@PathParam("name") String name) 
-   {
-     return "Hello " + name;
-   }
+    @GET
+    @Path("/xml")
+    @Produces(MediaType.TEXT_XML)
+    public String sayXMLHello() {
+        return "<?xml version=\"1.0\"?>" + "<hello> Hello Jersey" + "</hello>";
+    }
 
+    // This method is called if HTML is request
+    @GET
+    @Path("/html")
+    @Produces(MediaType.TEXT_HTML)
+    public String sayHtmlHello() {
+        return "<html> " + "<title>" + "Hello Jersey" + "</title>"
+                + "<body><h1>" + "Hello Jersey" + "</body></h1>" + "</html> ";
+    }
 
+    @Path("/{name}")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String sayPlainTextHello(@PathParam("name") String name) {
+        return "Hello " + name;
+    }
 
 }

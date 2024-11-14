@@ -28,6 +28,7 @@ public class ApplicationConfig extends jakarta.ws.rs.core.Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(com.mycompany.helloworldwebservice.HelloWorldResource.class);
+        resources.add(com.mycompany.helloworldwebservice.Library.class);
         resources.add(com.mycompany.helloworldwebservice.resources.JakartaEE10Resource.class);
     }
     
