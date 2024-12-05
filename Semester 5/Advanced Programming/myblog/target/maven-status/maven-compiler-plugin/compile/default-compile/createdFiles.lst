@@ -1,0 +1,6 @@
+com\mycompany\myblog\models\Message.class
+com\mycompany\myblog\models\Comment.class
+com\mycompany\myblog\services\MessageService.class
+com\mycompany\myblog\resources\CommentResource.class
+com\mycompany\myblog\resources\MessageResource.class
+com\mycompany\myblog\services\CommentService.class
